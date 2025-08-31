@@ -1,0 +1,50 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.foto {
+  max-width: 300px;
+  height: auto;
+  border: 2px solid #000;
+  filter: grayscale(100%); /* Preto e branco */
+}
+
+.texto {
+  max-width: 550px;
+}
+
+.texto h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.site {
+  font-weight: bold;
+}
